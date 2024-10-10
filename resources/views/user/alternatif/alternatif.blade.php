@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container">
-    <h1>Daftar Alternatif</h1>
+    <h1>Daftar Alternatif semuanya</h1>
 
     @if(session('success'))
         <div class="alert alert-success">{{ session('success') }}</div>
